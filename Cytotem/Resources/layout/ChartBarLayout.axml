@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp">
+    <CheckedTextView
+        android:text="10pm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chartBar"
+        android:background="@drawable/chart_ripple"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="16dp"
+        android:textSize="12dp"
+        android:textColor="?android:attr/textColorSecondary" />
+    <ImageView
+        android:src="@drawable/ic_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/meIcon"
+        android:layout_gravity="top|center_horizontal"
+        android:tint="#eeffffff"
+        android:layout_marginTop="32dp" />
+    <TextView
+        android:text="42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/counterText"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_marginTop="8dp" />
+</FrameLayout>

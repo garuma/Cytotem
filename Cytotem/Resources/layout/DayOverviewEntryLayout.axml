@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:minHeight="48dp"
+    android:background="?android:attr/selectableItemBackground">
+    <TextView
+        android:text="Sun 19th"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateText"
+        android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginRight="8dp" />
+    <ImageView
+        android:src="@drawable/ic_person"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/meIcon"
+        android:layout_marginRight="8dp"
+        android:tint="?android:attr/colorAccent"
+        android:layout_gravity="center" />
+    <ImageView
+        android:src="@drawable/weather_partlycloudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherIcon"
+        android:layout_marginRight="8dp"
+        android:tint="?android:attr/colorAccent"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+    <TextView
+        android:text="1081"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/counterText"
+        android:layout_gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        android:minEms="3"
+        android:gravity="right" />
+</LinearLayout>

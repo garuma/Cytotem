@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="cytotem_background">#ffeeeeee</color>
+	<color name="cytotem_primary">#81C133</color>
+	<color name="cytotem_primary_dark">#354435</color>
+	<color name="cytotem_accent">#FF7E14</color>
+
+	<color name="white_primary">#d6ffffff</color>
+	<color name="white_secondary">#89ffffff</color>
+	<color name="black_primary">#c6000000</color>
+	<color name="black_secondary">#89000000</color>
+
+	<color name="chart_bar_selected">#FAB505</color>
+	<color name="chart_bar_normal">#F8C43F</color>
+	<color name="chart_bar_ripple">#FF7E14</color>
+
+	<style name="Base.Cytotem" parent="@style/Theme.AppCompat.Light.NoActionBar">
+		<item name="android:colorBackground">@color/cytotem_background</item>
+		<item name="android:colorPrimary">@color/cytotem_primary</item>
+		<item name="android:colorPrimaryDark">@color/cytotem_primary_dark</item>
+		<item name="android:colorAccent">@color/cytotem_accent</item>
+		<item name="colorPrimary">@color/cytotem_primary</item>
+		<item name="colorPrimaryDark">@color/cytotem_primary_dark</item>
+		<item name="colorAccent">@color/cytotem_accent</item>
+		<item name="android:textColorPrimary">@color/black_primary</item>
+	    <item name="android:textColorSecondary">@color/black_secondary</item>
+	</style>
+
+	<style name="Theme.Cytotem" parent="@style/Base.Cytotem" />
+
+	<style name="ThemeOverlay.Cytotem.Toolbar" parent="">
+		<item name="android:textColorPrimary">@color/white_primary</item>
+	    <item name="android:textColorSecondary">@color/white_secondary</item>
+	</style>
+</resources>

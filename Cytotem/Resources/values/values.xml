@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<string-array name="months">
+		<item>July</item>
+		<item>June</item>
+	</string-array>
+
+	<string-array name="years">
+		<item>2015</item>
+	</string-array>
+
+	<string-array name="totem_sort_options">
+		<item>In and out</item>
+		<item>In Cambridge</item>
+		<item>Out of Cambridge</item>
+	</string-array>
+</resources>

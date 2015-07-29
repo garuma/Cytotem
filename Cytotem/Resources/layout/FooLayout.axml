@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="16dp">
+    <ImageView
+        android:src="@drawable/grumpy_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="Happy getting older day!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="@color/white_primary" />
+    <TextView
+        android:text="&quot;A day to celebrate that you havent died in the last year&quot;  -- Urban Dictionary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="12dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="32dp">
+        <Button
+            android:text="Didn't know it"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/button1"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="?android:attr/colorAccent" />
+        <Button
+            android:text="knew it"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="?android:attr/colorAccent" />
+    </LinearLayout>
+</LinearLayout>

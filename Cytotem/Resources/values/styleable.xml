@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+	<declare-styleable name="ClockHeatMap">
+		<attr name="clockColor" format="color" />
+		<attr name="clockStrokeWidth" format="dimension" />
+		<attr name="clockMapBackground" format="color" />
+	</declare-styleable>
+</resources>
